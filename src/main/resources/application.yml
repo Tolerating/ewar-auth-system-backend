@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: backend-system
+  datasource:
+    port: 3306
+    host: 127.0.0.1
+    db-name: lk_auth_system
+    username: root
+    password: root
+    url: jdbc:mysql://${spring.datasource.host}:${spring.datasource.port}/${spring.datasource.db-name}?useInformationSchema=true&characterEncoding=utf-8
